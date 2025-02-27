@@ -19,7 +19,7 @@ const staffSchema = new Schema<IStaffEntity>({
         maxLength: 50
     },
     email: {
-        type: String,
+        type: String, 
         required: true,
         unique: true,
         validate: {
